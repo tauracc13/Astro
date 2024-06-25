@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrologer 365</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2e2e2e;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #f9d342;
+        }
+        nav {
+            background-color: #444444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #f0f0f0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #f9d342;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #2e2e2e;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Astrologer 365</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#natal-chart">Natal Chart</a>
+        <a href="#placements">Astrological Placements</a>
+        <a href="#transits">Transits</a>
+        <a href="#energy-of-the-day">Energy of the Day</a>
+    </nav>
+    <div class="content">
+        <div class="section" id="about">
+            <h2>About</h2>
+            <p>Welcome to Astrologer 365! We are dedicated to providing comprehensive astrological information, including interactive natal charts, detailed astrological placements, daily transits, and the energy of the day. Our goal is to help you understand and navigate your life's journey with the wisdom of astrology.</p>
+        </div>
+        <div class="section" id="natal-chart">
+            <h2>Natal Chart</h2>
+            <p>Explore your personal natal chart with our interactive tool. Enter your birth details to discover your astrological placements and gain deeper insights into your personality and life path.</p>
+            <!-- Placeholder for interactive natal chart -->
+            <p>[Interactive Natal Chart Coming Soon]</p>
+        </div>
+        <div class="section" id="placements">
+            <h2>Astrological Placements</h2>
+            <p>Learn about the significance of each astrological placement in your natal chart. Understand how the positions of the planets at the time of your birth influence your personality, relationships, and life events.</p>
+        </div>
+        <div class="section" id="transits">
+            <h2>Transits</h2>
+            <p>Stay updated with the current planetary transits and how they impact your daily life. Our transit information provides insights into the energies and influences that shape your experiences.</p>
+        </div>
+        <div class="section" id="energy-of-the-day">
+            <h2>Energy of the Day</h2>
+            <p>Discover the astrological energy of the day and how to make the most of it. Our daily updates help you align with the cosmic flow and harness the positive influences in your life.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Astrologer 365. All rights reserved.</p>
+    </footer>
+</body>
+</html>
